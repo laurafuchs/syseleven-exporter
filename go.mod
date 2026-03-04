@@ -1,12 +1,11 @@
 module github.com/syseleven/syseleven-exporter
 
-go 1.24.0
-
-toolchain go1.24.3
+go 1.25.7
 
 require (
 	github.com/go-chi/chi/v5 v5.2.3
 	github.com/gophercloud/gophercloud v1.14.1
+	github.com/gophercloud/gophercloud/v2 v2.11.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.10.1
